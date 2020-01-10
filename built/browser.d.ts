@@ -74,8 +74,7 @@ export declare class ProtractorBrowser {
      * @deprecated
      * @type {string}
      */
-    set rootEl(value: string);
-    get rootEl(): string;
+    rootEl: string;
     private internalRootEl;
     /**
      * Set the css selector for an element on which to find Angular. This is usually

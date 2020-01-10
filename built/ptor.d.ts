@@ -23,14 +23,14 @@ export declare class Ptor {
     ProtractorBy: any;
     ProtractorExpectedConditions: any;
     Actions: typeof webdriver.Actions;
-    Browser: typeof webdriver.Browser;
+    Browser: webdriver.IBrowser;
     Builder: typeof webdriver.Builder;
     Button: typeof webdriver.Button;
     Capabilities: typeof webdriver.Capabilities;
-    Capability: typeof webdriver.Capability;
+    Capability: webdriver.ICapability;
     EventEmitter: typeof webdriver.EventEmitter;
     FileDetector: typeof webdriver.FileDetector;
-    Key: typeof webdriver.Key;
+    Key: import("selenium-webdriver/lib/input").IKey;
     Session: typeof webdriver.Session;
     WebDriver: typeof webdriver.WebDriver;
     WebElement: typeof webdriver.WebElement;
