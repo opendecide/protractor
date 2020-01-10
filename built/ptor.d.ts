@@ -30,7 +30,7 @@ export declare class Ptor {
     Capability: webdriver.ICapability;
     EventEmitter: typeof webdriver.EventEmitter;
     FileDetector: typeof webdriver.FileDetector;
-    Key: import("selenium-webdriver/lib/input").IKey;
+    Key: typeof webdriver.Key;
     Session: typeof webdriver.Session;
     WebDriver: typeof webdriver.WebDriver;
     WebElement: typeof webdriver.WebElement;
